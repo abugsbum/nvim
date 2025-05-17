@@ -1,0 +1,36 @@
+{
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "f", "g"],
+      "commands": ["workbench.view.search"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.view.scm"]
+    },
+    {
+      "before": ["<leader>", "f", "b"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "f", "t"],
+      "commands": ["workbench.action.terminal.toggleTerminal"]
+    }
+  ],
+  "vim.useCtrlKeys": true,
+  "editor.lineNumbers": "relative",
+
+  "workbench.colorTheme": "Dark+ Pure Black (OLED)",
+  "editor.minimap.enabled": false
+}
